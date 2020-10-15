@@ -1,0 +1,33 @@
+{
+  "name": "hopverkefni1",
+  "version": "1.0.0",
+  "description": "Hópverkefni 1",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "concurrently": "^5.3.0",
+    "node-sass": "^4.14.1",
+    "sass-watch": "^0.1.0",
+    "stylelint": "^13.7.2",
+    "stylelint-config-sass-guidelines": "^7.1.0",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "scripts": {
+    "browser-sync": "browser-sync start --server --files index.html styles.css",
+    "sass": "node-sass styles.scss styles.css",
+    "sass-watch": "node-sass --source-map-embed --watch *.scss --recursive styles.css",
+    "dev": "concurrently npm:sass-watch npm:browser-sync",
+    "lint": "stylelint styles.scss ./**/*.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olafur90/hopverkefni1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olafur90/hopverkefni1/issues"
+  },
+  "homepage": "https://github.com/olafur90/hopverkefni1#readme"
+}
