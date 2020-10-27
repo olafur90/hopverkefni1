@@ -1,8 +1,6 @@
-body {
-  $color: black;
-  color: $color;
-
-}
-h1 {
-  font-size: 45px;
-}
+@import 'styles/config';
+@import 'styles/global';
+@import 'styles/grid-overlay';
+@import 'styles/grid';
+@import 'styles/header';
+@import 'styles/footer';
