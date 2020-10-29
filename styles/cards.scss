@@ -23,13 +23,9 @@
   font-size: 1.375rem;
   line-height: 1.83rem;
 }
-.bottomCardText {
+.sushi {
   display: flex;
-  flex-direction: row;
-  width: 45%;
+  flex-direction:row;
+  align-items: center;
 }
-.readMore {
-  text-align: right;
-  float: right;
-  position: right;
-}
+.bottomCardText { float: right; width: 40%;}
