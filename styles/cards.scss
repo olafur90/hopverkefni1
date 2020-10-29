@@ -1,0 +1,23 @@
+.card {
+  display:flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.card img {
+  width: 100%;
+  border: 1px solid green;
+  margin-bottom: 1em;
+}
+.bottomCard {
+   margin-left: 8%;
+}
+.bottomCard p {
+  font-weight: 300;
+  font-size: 0.875em;
+  color: #9B9B9B;
+}
+.bottomCard h2 {
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 1.83rem;
+}
