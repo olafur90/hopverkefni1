@@ -1,5 +1,10 @@
 @import 'config';
 
+$max-width: 1400px;
+
+$columns: 12;
+$gutter: 20px;
+
 * {
   box-sizing: border-box;
   margin: 0;
