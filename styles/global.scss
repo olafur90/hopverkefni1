@@ -1,7 +1,6 @@
 @import 'config';
 
 $max-width: 1400px;
-
 $columns: 12;
 $gutter: 20px;
 
@@ -14,9 +13,7 @@ p { font-size: 16px;}
 .recipes {
   color: #D0D0D0;
 }
-.readMore {
-  float: right;
-}
+
 input {
   background: transparent;
   border-left: transparent;
@@ -50,4 +47,7 @@ button {
   letter-spacing: 0px;
   text-align: center;;
   background-color: transparent;
+
 }
+
+body { background: F2F2F2;}

@@ -10,6 +10,8 @@
 }
 .bottomCard {
    margin-left: 8%;
+   display: flex;
+   flex-direction: column;
 }
 .bottomCard p {
   font-weight: 300;
@@ -20,4 +22,14 @@
   font-weight: 700;
   font-size: 1.375rem;
   line-height: 1.83rem;
+}
+.bottomCardText {
+  display: flex;
+  flex-direction: row;
+  width: 45%;
+}
+.readMore {
+  text-align: right;
+  float: right;
+  position: right;
 }
