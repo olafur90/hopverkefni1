@@ -1,5 +1,10 @@
 @import 'config';
 
+$max-width: 1400px;
+
+$columns: 12;
+$gutter: 20px;
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,4 +16,38 @@ p { font-size: 16px;}
 }
 .readMore {
   float: right;
+}
+input {
+  background: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+  color: #ffffff;
+  padding-bottom: 1vh;
+}
+
+button {
+  width: 250px;
+  height: 55px;
+  left: 520px;
+  top: 0px;
+  border: 1px solid #E3CDB1;
+  box-sizing: border-box;
+
+  color: #E3CDB1;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;;
+  background-color: transparent;
 }
