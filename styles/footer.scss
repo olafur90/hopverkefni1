@@ -19,13 +19,20 @@
     > .links {
         padding: 10vh;
         align-self: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    > .links-links {
+        display: flex;
+        flex-direction: row;
     }
 }
 
 .fa {
     padding: 1vh;
     font-size: 3vh;
-    width: 5vh;
+    width: 4vh;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
