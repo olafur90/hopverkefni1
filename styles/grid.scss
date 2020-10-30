@@ -9,25 +9,24 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -10px;
-  margin-right: -10px;
+  justify-content: space-between;
+  margin-left: ($gutter / -2);
+  margin-right: ($gutter / -2);
 }
 
 .col {
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 90%;
+  padding-left: ($gutter / 2);
+  padding-right: ($gutter / 2);
+  width: 100%;
 }
 
 @for $i from 1 through $columns {
   .col-#{$i} {
-    width: percentage($i / $columns);
+    width: ($i / $columns * 100 * 1%);
   }
-}
 
-@for $i from 1 through 3 {
   .offset-col-#{$i} {
-    margin-left: percentage($i / $columns);
+    margin-left: ($i / $columns * 100 * 1%);
   }
 }
 
@@ -38,13 +37,13 @@ medium—upp að 800px
 @media (max-width: 799px) {
   @for $i from 1 through $columns {
     .col-md-#{$i} {
-      width: percentage($i / $columns);
+      width: ($i / $columns * 100 * 1%);
     }
   }
 
   @for $i from 1 through 3 {
     .offset-col-md-#{$i} {
-      margin-left: percentage($i / $columns);
+      margin-left: ($i / $columns * 100 * 1%);
     }
   }
 }
@@ -55,13 +54,13 @@ small—upp að 500px
 @media (max-width: 499px) {
   @for $i from 1 through $columns {
     .col-sm-#{$i} {
-      width: percentage($i / $columns);
+      width: ($i / $columns * 100 * 1%);
     }
   }
 
   @for $i from 1 through 3 {
     .offset-col-sm-#{$i} {
-      margin-left: percentage($i / $columns);
+      margin-left: ($i / $columns * 100 * 1%);
     }
   }
 }

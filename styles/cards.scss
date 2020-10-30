@@ -2,10 +2,10 @@
   display:flex;
   flex-direction: column;
   margin-top: 2rem;
+  padding: 15px;
 }
 .card img {
   width: 100%;
-  border: 1px solid green;
   margin-bottom: 1em;
 }
 .bottomCard {
@@ -29,3 +29,16 @@
   align-items: center;
 }
 .bottomCardText { float: right; width: 40%;}
+.bla {
+  display: flex;
+  flex-direction: row;
+  justify-items: baseline;
+}
+.bla a {
+   text-align: right;
+   align-self:flex-end;
+   margin-left: 40%;
+   padding-bottom: 0.1rem;
+   text-decoration: none;
+   color: #E3CDB1;
+}

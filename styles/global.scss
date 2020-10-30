@@ -1,8 +1,8 @@
 @import 'config';
 
-$max-width: 1400px;
+$max-width: 1290px;
 $columns: 12;
-$gutter: 20px;
+$gutter: 30px;
 
 * {
   box-sizing: border-box;
@@ -55,3 +55,7 @@ button {
 }
 
 body { background: F2F2F2;}
+main {
+  padding-left: 10px;
+  padding-right: 10px;
+}
