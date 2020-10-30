@@ -7,11 +7,23 @@
   align-items: center;
   margin-top: 5rem;
 }
+.magazine h2 {
+  font-size: 3.75rem;
+}
+
+.magazine p {
+  color: black;
+}
+
 .magText {
-  width: 30%;
+  width: 23%;
 }
 .magazine img {
   margin-top: 30%;
   margin-bottom: -20%;
-
+  margin-left: 4rem;
 }
+.magazine button {
+  margin-top: 1.5rem;
+}
+

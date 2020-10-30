@@ -1,17 +1,17 @@
 .feet {
-    margin-top: 100%;
+  margin-top: 10rem;
     height: 50vh;
-    border: 2px solid blue;
     display: flex;
     flex-direction: column;
-    
+
     > .sub {
         padding: 10vh;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         background-color: black;
-        
+        margin-bottom: 5rem;
+
 
     }
 
@@ -42,24 +42,30 @@
     }
 
     // stillingar fyrir hvert logo fyrir sig /
-      
-    // Facebook 
+
+    // Facebook
     &-facebook-square {
         background: white;
         color: #E3CDB1;
         border: 2px solid #E3CDB1;
     }
 
-    // Twitter 
+    // Twitter
     &-twitter {
         background: white;
         color: #E3CDB1;
         border: 2px solid #E3CDB1;
     }
-      
-    // YT 
+
+    // YT
     &-youtube-play {  background: white;
         color: #E3CDB1;
         border: 2px solid #E3CDB1;
     }
+}
+hr {
+  height: 1px;
+  width: 78%;
+  margin-left: 20%;
+  background-color: #EEEEEE;
 }
