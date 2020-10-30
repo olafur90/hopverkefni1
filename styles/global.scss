@@ -18,6 +18,10 @@ p {
   color: #D0D0D0;
 }
 
+.subber {
+  color: #FFF;
+}
+
 input {
   background: transparent;
   border-left: transparent;
@@ -25,6 +29,11 @@ input {
   border-top: transparent;
   color: #ffffff;
   padding-bottom: 1vh;
+  width: 30vh;
+}
+
+input::placeholder {
+  font-size: 1.5vh;
 }
 
 button {
