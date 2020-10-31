@@ -3,6 +3,7 @@
     height: 50vh;
     display: flex;
     flex-direction: column;
+    background-color: #F2F2F2;
 
     > .sub {
         padding: 10vh;
@@ -64,8 +65,9 @@
     }
 }
 hr {
-  height: 1px;
   width: 78%;
   margin-left: 20%;
   background-color: #EEEEEE;
+  border-top: 1px solid #EEEEEE;
+
 }
