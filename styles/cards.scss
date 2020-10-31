@@ -1,19 +1,20 @@
 .card {
   display:flex;
   flex-direction: column;
-  margin-top: 2rem;
   padding: 15px;
 }
 .card img {
   width: 100%;
-  margin-bottom: 1em;
 }
 .bottomCard {
-   margin-left: 8%;
    display: flex;
    flex-direction: column;
+   background-color: #FFFFFF;
+   padding-bottom: 1.3rem;
+   padding-left: 1.5rem;
 }
 .bottomCard p {
+  padding-top: 20px;
   font-weight: 300;
   font-size: 0.875em;
   color: #9B9B9B;
@@ -38,7 +39,10 @@
    text-align: right;
    align-self:flex-end;
    margin-left: 40%;
-   padding-bottom: 0.1rem;
+   padding-bottom: 0.5rem;
    text-decoration: none;
    color: #E3CDB1;
+}
+.first {
+  margin-top: 0.6rem;
 }
